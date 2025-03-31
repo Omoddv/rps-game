@@ -26,3 +26,8 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+while True:
+     play_game()
+     play_game = input ("\nPlay again? (yes/no): ").lower()
+     if play_again != "yes":
+        break
